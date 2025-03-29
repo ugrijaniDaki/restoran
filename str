@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naslovna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body id="start">
+       <header>
+            <a href="#" class="logo">logo</a>
+            <ul> 
+                <li><a href="#start">START</a></li>
+                <li><a href="#onama">O NAMA</a></li>
+                <li><a href="#jelovnik">JELOVNIK</a></li>
+                <li><a href="#galerija">GALERIJA</a></li>
+                <li><a href="#kontakt">KONTAKT</a></li>
+            </ul>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+    </style>
+    
+    <div class="conteiner">
+
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="images/video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="content">
+            <h1>dobro došli</h1>    
+            <a href="#onama">Saznaj više</a>
+        </div>  
+    </div>
+
+    <hr>
+
+    <section id="onama"></section>
+
+    <section class="onama">
+        <div>
+            <img src="images/pin.png" alt="place">
+            <h3>gdje se nalazimo?</h3>
+            <p>name</p>
+            <p>adress</p>
+        </div>
+
+        <div>
+            <img src="images/phone.png" alt="phone">
+            <h3>nazovite nas</h3>
+            <p>number</p>
+        </div>
+
+        <div>
+            <img src="images/time.png" alt="time">
+            <h3>vrijeme otvaranja</h3>
+            <p>time</p>
+        </div>
+    </section>
+
+    <section id="jelovnik"></section>
+
+    <section class="jelovnik">
+        <div>
+            <h1>Saznajte više</h1>
+            <h3>što nudimo...</h3>
+        </div>
+        <h2>jelovnik</h2>
+
+        <br>
+        
+        <div class="menu">
+            <div class="item">food1 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food2 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food3 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food4 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food5 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food6 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food7 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food8 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food9 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food10 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food11 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food12 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food13 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food14 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food15 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food16 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food17 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food18 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food19 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food20 <br><br> <div class="cijena">0,00 EUR</div></div>
+            <div class="item">food21 <br><br> <div class="cijena">0,00 EUR</div></div>
+        </div>
+    </section>
+
+    <section class="gostinaslov">
+        <h2>ŠTO KAŽU NAŠI <span style="color: red;"> GOSTI</span>?</h2>
+        <br><br>
+        <div class="recenzije">
+            <div class="review-container">
+                <p class="review-text">Pohvale sve i top samo ostanite takvi</p>
+            </div>         
+        </div>
+        <p class="review-author">PETRA</p>
+    </section>
+
+    <hr>
+
+    <section id="galerija"></section>
+
+    <section>
+        <div class="galerija">
+            <h2>Pogledajte našu <br> <span style="color: red;"> galeriju</span></h2>
+            <img src="images/slika1.jpg" alt="Slika 1">
+            <img src="images/slika2.jpg" alt="Slika 2">
+            <img src="images/slika3.jpg" alt="Slika 3">
+            <img src="images/slika4.jpg" alt="Slika 4">
+            <img src="images/slika5.jpg" alt="Slika 5">
+            <img src="images/slika6.png" alt="Slika 6">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="kontakt"></section>
+
+    <section class="kontakt">
+        <div>
+            <h2><span style="color: red;">Imate li pitanje?</span></h2>
+            <h3>Kontaktirajte nas</h3>
+            <p>Napiši ili nas nazovi</p>
+        </div>
+    </section>
+    
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11120.13641166807!2d16.037842337188476!3d45.830599490648346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4766780f1670236d%3A0x12b7f412cf041ce!2sDubrava%2C%2010040%2C%20Gornja%20Dubrava%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1743262773229!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+        <div>
+            <footer><a href="#" class="logo">logo</a> Adresa: adress <br> Telefon: number <br><br> © 2025 name</footer>
+        </div>
+    
+</body>
+</html>
